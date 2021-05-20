@@ -3,9 +3,7 @@ package com.example.deleteSQL;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 
 
 public class Main {
@@ -13,8 +11,6 @@ public class Main {
 		
 		Connection connection = null;
 		DbHelper dbHelper = new DbHelper();
-		Statement statement= null;
-		ResultSet resultSet;
 		PreparedStatement preparedStatement = null;
 
 		try {
